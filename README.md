@@ -77,6 +77,7 @@ In this project, there are a few jsons that the API returns, which are:
           "session_start": "Thu, 22 Mar 2018 13:25:17 GMT",
           "uid": "0541f9a53d86dbf2a89f8d69ed182b98"
         }
+        
     ]
 ```
 

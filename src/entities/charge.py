@@ -7,6 +7,7 @@ import dateutil.parser
 
 def validate_json_charges(obj) -> str:
     msg = ""
+    
     if "transactions" not in obj:
         msg += "* 'transactions' not in the json from remote server"
     if "supplier_prices" not in obj:

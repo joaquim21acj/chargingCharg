@@ -48,6 +48,7 @@ def get_charges_pretty() -> tuple:
         list_errs = []
         for transaction in res["transactions"]:
             try:
+                
                 charge = charge_from_dict(transaction)
                 list_charges.append(charge)
             except Exception as e:

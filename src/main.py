@@ -12,6 +12,7 @@ logging.basicConfig(level=logging.DEBUG,
                     datefmt='%Y-%m-%d %H:%M:%S',
                     handlers=[logging.StreamHandler()])
 
+
 logger = logging.getLogger()
 
 

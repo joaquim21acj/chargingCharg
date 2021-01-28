@@ -18,4 +18,5 @@ def get_supplier_prices_charges():
                                          methods=['GET'])
 def get_charges():
     res, cod = controller.get_charges_pretty()
+    
     return res, cod
