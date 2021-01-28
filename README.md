@@ -1,9 +1,7 @@
 # chargingCharg
-
 The project to implement a unified system to charg eletric vehicles when using charging points in Europe.
 
 ## HOW TO RUN
-
 First thing you need to do is to install the requirements, you can do it inside or out of the virtualenv:
 
 ```sh
@@ -17,11 +15,9 @@ python ./src/main.py
 ```
 
 ## Json information
-
 In this project, there are a few jsons that the API returns, which are:
 
 ### Raw Json from server Supplier charges
-
 ```json
  "charges": [
         {
@@ -62,3 +58,25 @@ In this project, there are a few jsons that the API returns, which are:
         }
     ]
 ```
+
+### Charges after been casted
+```json
+"charges": [
+        {
+          "charging_end": "Fri, 23 Mar 2018 03:31:54 GMT",
+          "charging_start": "Thu, 22 Mar 2018 13:25:17 GMT",
+          "country_code": "SA",
+          "evseid": "TB*UQT*Z888*57",
+          "meter_value_end": "1724.537",
+          "meter_value_start": "1234.6",
+          "metering_signature": "",
+          "partner_product_id": "LQ*VOW",
+          "proveider_id": "OI-SKG",
+          "session_end": "Fri, 23 Mar 2018 14:49:23 GMT",
+          "session_id": "a4451497-aff2-4a41-8d29-dbd4ad128d7f",
+          "session_start": "Thu, 22 Mar 2018 13:25:17 GMT",
+          "uid": "0541f9a53d86dbf2a89f8d69ed182b98"
+        }
+    ]
+```
+
